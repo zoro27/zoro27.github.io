@@ -34,7 +34,17 @@ toc_label: "Contents"
 
 ## Publications
 
-See the [Publications page](/publications/) for the full list.
+1. **Latent brain subtypes of chronotype reveal unique behavioral and health profiles across population cohorts**  
+   L Zhou, K Saltoun, J Marotta, S Aggarwal, J Kopal, J Carrier, KF Storch, RIM Dunbar, D Bzdok  
+   *Nature Communications*, 2025  
+   [📄 Paper](https://www.nature.com/articles/s41467-025-66784-8)
+
+2. **Multimodal population study reveals the neurobiological underpinnings of chronotype**  
+   L Zhou, K Saltoun, J Carrier, KF Storch, RIM Dunbar, D Bzdok  
+   *Nature Human Behaviour*, 9(7), pp. 1442–1456, 2025  
+   [📄 Paper](https://www.nature.com/articles/s41562-025-02182-w)
+
+[View all →](/publications/)
 
 ---
 
