@@ -35,6 +35,7 @@ I am Le Zhou, a **PhD candidate** at **McGill University** and **Mila — Quebec
 - 📧 **Email:** [le.zhou@mail.mcgill.ca](mailto:le.zhou@mail.mcgill.ca)
 - 🎓 **Google Scholar:** [scholar.google.com/citations?user=tv4f-LoAAAAJ](https://scholar.google.com/citations?user=tv4f-LoAAAAJ&hl=en)
 - 🐙 **GitHub:** [github.com/zoro27](https://github.com/zoro27)
-- 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- 💼 **LinkedIn:** [linkedin.com/in/le-zhou-b45592371](https://www.linkedin.com/in/le-zhou-b45592371/)
+- 𝕏 **X (Twitter):** [x.com/lezhou1](https://x.com/lezhou1)
 
 </div>

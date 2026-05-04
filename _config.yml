@@ -21,12 +21,15 @@ author:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/zoro27
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/le-zhou-b45592371/
+    - label: X
+      icon: fab fa-x-twitter
+      url: https://x.com/lezhou1
     - label: Email
       icon: fas fa-envelope
       url: mailto:le.zhou@mail.mcgill.ca
-    - label: LinkedIn
-      icon: fab fa-linkedin
-      url: https://linkedin.com/in/yourprofile
 
 # ============================================================
 # Theme — Minimal Mistakes (popular with academics)
@@ -109,7 +112,7 @@ include:
 # SEO / Social
 # ============================================================
 twitter:
-  username: ""
+  username: "lezhou1"
 og_image: /assets/images/site-og.png
 social:
   type: Person
@@ -123,6 +126,12 @@ footer:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/zoro27
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/le-zhou-b45592371/
+    - label: X
+      icon: fab fa-x-twitter
+      url: https://x.com/lezhou1
     - label: Email
       icon: fas fa-envelope
       url: mailto:le.zhou@mail.mcgill.ca
