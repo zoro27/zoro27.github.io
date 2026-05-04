@@ -1,38 +1,55 @@
-## Le Zhou
+---
+layout: single
+author_profile: true
+title: "Welcome"
+header:
+  overlay_image: /assets/images/header-bg.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+  actions:
+    - label: "📄 View My CV"
+      url: /cv/
+    - label: "📚 Publications"
+      url: /publications/
+---
 
-Welcome to my personal website!
+## About Me
+
+I am a **PhD candidate** at **McGill University** and **Mila — Quebec AI Institute**, working at the intersection of **systems neuroscience** and **artificial intelligence**.
 
 ---
 
-## About
+## Research Interests
 
-<!-- TODO: Write a short bio about yourself -->
-I'm Le Zhou, a software developer passionate about building great software.
-
----
-
-## Skills
-
-<!-- TODO: Update with your actual skills -->
-- Languages: Python, JavaScript, Java
-- Tools & Frameworks: Git, React, Node.js
-- Other: Data Structures, Algorithms, Cloud Computing
+- **Systems Neuroscience** — Neural coding, population dynamics, brain-inspired computation
+- **Artificial Intelligence** — Deep learning, representation learning, generative models
+- **Neuroinformatics** — Tools and methods for large-scale neural data analysis
 
 ---
 
-## Projects
+## News
 
-<!-- TODO: Add your real projects with links -->
-- **Project One** — A brief description of what this project does. [View on GitHub](https://github.com/zoro27)
-- **Project Two** — A brief description of what this project does. [View on GitHub](https://github.com/zoro27)
-- **Project Three** — A brief description of what this project does. [View on GitHub](https://github.com/zoro27)
+<div class="news-list" markdown="1">
+
+- **[May 2026]** Check out my latest publications on [Google Scholar](https://scholar.google.com/citations?user=tv4f-LoAAAAJ&hl=en).
+- **[Ongoing]** PhD research at McGill University & Mila on systems neuroscience and AI.
+
+</div>
 
 ---
 
-## Contact
+## Recent Publications
 
-<!-- TODO: Fill in your real contact details -->
-- GitHub: [github.com/zoro27](https://github.com/zoro27)
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for pub in sorted_pubs limit:3 %}
+  <div class="pub-item" markdown="1">
+  **{{ pub.title }}**  
+  *{{ pub.authors }}*  
+  {{ pub.venue }}, {{ pub.date | date: "%Y" }}  
+  {% if pub.paperurl %}[📄 Paper]({{ pub.paperurl }}){% endif %}
+  {% if pub.codeurl %}[💻 Code]({{ pub.codeurl }}){% endif %}
+  </div>
+{% endfor %}
+
+[View all publications →](/publications/)
 

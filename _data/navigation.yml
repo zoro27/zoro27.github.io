@@ -1,0 +1,12 @@
+# Main navigation links (shown in the masthead)
+main:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/

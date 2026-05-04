@@ -1,5 +1,128 @@
-theme: jekyll-theme-slate
-
+# ============================================================
+# Site Settings
+# ============================================================
 title: Le Zhou
-description: Personal website of Le Zhou
-author: Le Zhou
+email: your.email@example.com
+description: >-
+  PhD Candidate at McGill University & Mila — Quebec AI Institute.
+  Research in systems neuroscience, artificial intelligence, and neuroinformatics.
+url: "https://zoro27.github.io"
+baseurl: ""
+repository: zoro27/zoro27.github.io
+author:
+  name: Le Zhou
+  avatar: /assets/images/bio-photo.jpg
+  bio: "PhD Candidate — Systems Neuroscience & AI"
+  location: "McGill University & Mila — Quebec AI Institute"
+  links:
+    - label: Google Scholar
+      icon: fas fa-graduation-cap
+      url: https://scholar.google.com/citations?user=tv4f-LoAAAAJ&hl=en
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/zoro27
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:le.zhou@mail.mcgill.ca
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://linkedin.com/in/yourprofile
+
+# ============================================================
+# Theme — Minimal Mistakes (popular with academics)
+# ============================================================
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"  # default, air, aqua, contrast, dark, dirt, mint, sunrise, neon, plum
+
+# ============================================================
+# Site Locale / Language
+# ============================================================
+locale: en-US
+
+# ============================================================
+# Plugins
+# ============================================================
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-remote-theme
+
+# ============================================================
+# Reading / Build Settings
+# ============================================================
+markdown: kramdown
+highlighter: rouge
+
+# Pagination (if using jekyll-paginate)
+paginate: 5
+paginate_path: /blog/page:num/
+
+# ============================================================
+# Collections (Publications)
+# ============================================================
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+
+# ============================================================
+# Defaults
+# ============================================================
+defaults:
+  # _posts (Blog)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      comments: false
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+# ============================================================
+# Navigation (shown in masthead)
+# ============================================================
+include:
+  - _pages
+
+# ============================================================
+# SEO / Social
+# ============================================================
+twitter:
+  username: ""
+og_image: /assets/images/site-og.png
+social:
+  type: Person
+  name: Le Zhou
+
+# ============================================================
+# Footer
+# ============================================================
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/zoro27
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:le.zhou@mail.mcgill.ca
